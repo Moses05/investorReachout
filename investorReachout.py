@@ -29,7 +29,7 @@ def main():
 
         mode1Name = st.text_input("Enter the name of the investor", placeholder="Investor Name")
         mode1Number = st.text_input("Enter the number of the investor", placeholder="Investor Number")
-        mode1SourcerName = st.text_input("Enter the number of the Sourcer", placeholder="Sourcer Name")
+        mode1SourcerName = st.text_input("Enter the name of the Sourcer", placeholder="Sourcer Name")
 
         if st.button("Mode 1 Submit"):
             mode1Link = mode1(mode1Name, mode1Number, mode1SourcerName)
@@ -44,7 +44,7 @@ def main():
         mode2Number = st.text_input("Enter the number of the investor", placeholder="Investor Number")
         mode2Location = st.text_input("Enter the location of interest of the investor", placeholder="Investor Location of Interest")
 
-        mode2SourcerName = st.text_input("Enter the number of the Sourcer", placeholder="Sourcer Name")
+        mode2SourcerName = st.text_input("Enter the name of the Sourcer", placeholder="Sourcer Name")
 
         if st.button("Mode 2 Submit"):
             mode2Link = mode2(mode2Name, mode2Number, mode2Location, mode2SourcerName)
